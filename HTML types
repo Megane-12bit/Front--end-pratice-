@@ -1,0 +1,102 @@
+<!doctype>
+<html lang= "pt-br">
+	<head>
+		<meta charset= "UTF-8">
+	<title>Guilherme Augusto - Contato</title>
+    <style>
+	a {background: red; width: 200px height:30px color: white; padding: 10px;}
+	body {
+	background-image:url(interstellar.jpg);
+	background-attachment:fixed;
+	background-size:adapted;
+	background-repeat:no-repeat
+	}
+	#cont {background:blue; width:110px;}
+	#de {background:blue; width: 230px;}
+	#name {background:blue; width:130px;}
+	#mail {background:blue; width:130px;}
+	#em {background:blue; width:130px;}
+	#wa {background:blue; width:130px;}
+	#sex {background:blue; width:130px;}
+	#unid {background:blue; width:130px;}
+	#men {background:blue; width:130px;}
+	#corpo { margin: auto; width: 800px; height: 800px; background: transparent; }
+	}
+    
+	#test{width: 900px; background:blue; border: 1px;}
+	#test footer ul li a {background: red; color:white; padding: 10px; border-radius: 10px; }
+	#test footer ul li { display: inline-block;  margin: 0px; padding:0px; background: red; }
+	#test footer ul li a:hover {background: blue; color:white; padding: 10px; border-radius: 10px; }	
+	
+	
+	
+	
+	</style>
+	
+	</head>
+    <body>
+		<div id="corpo">
+		
+		<Font color= "white">
+		
+		<h1 id="cont">Contato</h1>
+		<p id="de">Deixe suas informações de contato! </p>
+		</font>
+		<form method="get" action="contato.html">
+                 
+				 <table>
+			
+			<tr>
+				 <td><font color="white" id="name">Nome Completo:</font></td><td><input type="text" name="Usuario" value=""></br></td>
+				
+			</tr>
+			
+				<tr>
+			         <td><font color="white" id="wa">Whatsaap:</font></td><td><input type="text" value=""></td>     
+				</tr>
+			
+			<tr>
+			         <td><font color="white" id="mail">Email:</font></td><td><input type="text" name="text" value="" >
+			</tr>
+			<tr>
+			       <td><font color="white" id="em">Empresa:</font></td><td><input type="text" name="text" value="" >
+			</tr>
+		
+		    <td><font color="white" id="sex">Sexo:</font></td><td><select name="sexo">
+					   <option></option>
+					   <option>Masculino</option>
+					   <option>Feminino</option>
+					   <option>LGBTI+</option>
+					   <option>Outros</option>
+					   <option>Prefiro não informar</option>
+					  </select>
+					  <tr>
+			<td><font color="white"id="unid">Unidade:</font></td><td><select name="location">
+					   <option></option>
+					   <option>Cuiabá</option>
+					   <option>Lucas do rio verde</option>
+					   <option>Primavera do leste</option>
+					   	</tr>
+						</select>
+					  
+	     <tr>
+		    <td><font color="white" id="men">Mensagem:</font></td><td><textarea rows="10" cols="50"></textarea></td>
+			 <td><input type="submit" Value="Enviar" size width="200px" height="200px"></td>
+		</tr>
+		
+		</div>
+		</table>   
+				<div id="test">
+                        <footer>
+							<ul>
+								<li><a href="Page1.html">1</a></li>
+								<li><a href="Page2.html">2</a></li>
+								<li><a href="Page3.html">3</a></li>
+								<li><a href=>Atual</a></li>
+						    
+							</ul>
+						</footer>
+				</div>
+		</body>
+					  
+		
